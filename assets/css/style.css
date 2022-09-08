@@ -1,5 +1,19 @@
 @import url('http://fonts.cdnfonts.com/css/open-sans');
 
+
+:root {
+    --header-height: 3rem;
+    --nav-width: 68px;
+    --first-color: #000232;
+    --first-color-light: #AFA5D9;
+    --white-color: #F7F6FB;
+    --black-color:rgba(0, 0, 0, 0.8);
+    --body-font: 'Nunito', sans-serif;
+    --body-bg:#f8f9fa;
+    --normal-font-size: 1rem;
+    --z-fixed: 100;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
