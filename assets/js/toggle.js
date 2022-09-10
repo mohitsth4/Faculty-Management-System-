@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   showNavbar('header-toggle', 'nav-bar', 'body-pd', 'header')
 
-  /*===== ACTIVE MENU=====*/
+  /*** ACTIVE MENU */
   const linkColor = document.querySelectorAll('.nav_link')
 
   function colorLink() {
@@ -41,7 +41,7 @@ myLink.addEventListener('click', function (e) {
   e.preventDefault();
 });
 
-/***** Search Filter */
+/*** Search Filter */
 
 $(document).ready(function () {
   $("#searchFilter").on("keyup", function () {
@@ -53,7 +53,7 @@ $(document).ready(function () {
 });
 
 
-/***** Click Edit Content */
+/*** Click Edit Content */
 
 $(document).ready(function () {
   $('.edit-text').on('click', function () {
@@ -89,10 +89,15 @@ $(document).ready(function () {
 });
 
 
-/***** Delete Row */
+/*** Delete Row */
 
 $('table').on('click', 'tr a.del', function (e) {
   e.preventDefault();
   $(this).parents('tr').remove();
 });
 
+
+/*** Tool Tip */
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});

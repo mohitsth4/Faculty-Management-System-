@@ -30,3 +30,7 @@ a:hover{
     width: 100%!important;
     text-decoration: none!important;
 }
+
+.float-right{
+    float: right;
+}

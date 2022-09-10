@@ -33,8 +33,9 @@
 <body id="body-pd">
   <header class="header" id="header">
     <div class="header_toggle"> <i class="fa-solid fa-bars" id="header-toggle"></i> Faculties Management System -
-      <strong>Dashboard</strong></div>
-    <div class="header_img border">
+      <strong>Dashboard</strong>
+    </div>
+    <div class=" border"> <!--header_img-->
       <img src="./assets/images/logo_img.jpg" alt="">
     </div>
 
@@ -119,10 +120,10 @@
       <div class="row my-4">
         <div class="col-xl-8 col-md-8 col-12">
           <div class="card shadow">
-            <div class="card-header d-flex">
-              <h5 class="my-2">Professors</h5>
-              <a href="professors.html" class="btn btn-secondary btn-sm">View All</a>
-          </div>
+            <div class="card-header">
+              <h5 class="my-2 d-inline-block">Professors</h5>
+              <a href="professors.html" class="btn btn-secondary btn-sm mt-2 float-right">View All</a>
+            </div>
             <table class="table table-bordered table-striped table-hover">
               <thead class="thead-light">
                 <tr>
@@ -184,12 +185,12 @@
           <div class="card shadow">
             <div class="card-header">
               <h5 class="my-2">Graph</h5>
+            </div>
+            <div class="card-body mt-3 mb-4">
+              <canvas id="chartShowing"></canvas>
+            </div>
           </div>
-              <div class="card-body mt-3 mb-4">
-                  <canvas id="chartShowing"></canvas>
-              </div>
-          </div>
-      </div>
+        </div>
       </div>
     </div>
   </div>
