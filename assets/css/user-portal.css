@@ -1,3 +1,5 @@
+/*** Header & Navigation Start ***/
+
 .header {
     width: 100%;
     height: var(--header-height);
@@ -100,7 +102,7 @@
     padding-left: calc(var(--nav-width) + 1rem)
 }
 
-.active {
+.nav_link.active {
     color: var(--white-color)
 }
 
@@ -155,3 +157,67 @@
       padding-left: calc(var(--nav-width) + 160px)
     }
   }
+
+/*** Header & Navigation Start ***/
+
+  
+/*** Dashboard Page Css Start ***/
+.card-counter{
+    box-shadow: 2px 2px 10px #DADADA;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+    position: relative;
+  } 
+
+  .card-counter i{
+    font-size: 5em;
+    opacity: 0.2;
+  }
+
+  .card-counter .count-numbers{
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+  }
+
+  .card-counter .count-name{
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+  }
+
+/*** Dashboard Page Css End ***/
+
+
+/*** Table Fields Edit in all Pages Start ***/
+
+.edit-text {
+    position: relative;
+    padding: 10px;
+    padding-right:0px!important;
+}
+
+.edit-text input {
+    background: #efefef;
+    border: 0px;
+    line-height: 36px;
+    padding:20px 0px 20px 8px!important;
+}
+
+.edit-text input:focus{
+    outline:none;
+    border:0px;
+    box-shadow: 0 0 0;
+}
+
+/*** Table Fields Edit in all Pages End ***/

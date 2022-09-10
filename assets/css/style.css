@@ -10,7 +10,7 @@
     --black-color:rgba(0, 0, 0, 0.8);
     --body-font: 'Nunito', sans-serif;
     --body-bg:#f8f9fa;
-    --normal-font-size: 1rem;
+    --normal-font-size: 0.9rem;
     --z-fixed: 100;
 }
 
@@ -20,4 +20,13 @@ body {
 
 a:hover{
     text-decoration: underline!important;
+}
+
+.nav{
+    height: auto!important;
+}
+
+.nav-link, .nav-link:hover{
+    width: 100%!important;
+    text-decoration: none!important;
 }
