@@ -34,3 +34,12 @@ a:hover{
 .float-right{
     float: right;
 }
+
+
+/*** Responsive Css ***/
+
+@media screen and (max-width:991px){
+    .header_toggle{
+        font-size:1rem!important;
+    }
+}

@@ -35,8 +35,16 @@
     <div class="header_toggle"> <i class="fa-solid fa-bars" id="header-toggle"></i> Faculties Management System -
       <strong>Dashboard</strong>
     </div>
-    <div class=" border"> <!--header_img-->
-      <img src="./assets/images/logo_img.jpg" alt="">
+    
+    <div class="dropdown">
+      <a href="#"  id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="./assets/images/logo_img.jpg" width="50" class="rounded-circle" alt="">
+      </a>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
+        <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+        <li><a class="dropdown-item" href="login.html">Logout</a></li>
+      </ul>
     </div>
 
   </header>
@@ -84,7 +92,7 @@
   <div class="height-100 pt-5 bg-light">
     <div class="container-fluid pt-5">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card-counter bg-primary text-white">
             <i class="fa fa-code-fork"></i>
             <span class="count-numbers">24</span>
@@ -92,7 +100,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card-counter bg-success text-white">
             <i class="fa fa-ticket"></i>
             <span class="count-numbers">1599</span>
@@ -100,7 +108,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card-counter bg-info text-white">
             <i class="fa fa-database"></i>
             <span class="count-numbers">8</span>
@@ -108,7 +116,7 @@
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 mb-3">
           <div class="card-counter bg-danger text-white">
             <i class="fa fa-users"></i>
             <span class="count-numbers">3550</span>
@@ -118,70 +126,72 @@
       </div>
 
       <div class="row my-4">
-        <div class="col-xl-8 col-md-8 col-12">
+        <div class="col-xl-8 col-md-8 col-12 mb-3">
           <div class="card shadow">
             <div class="card-header">
               <h5 class="my-2 d-inline-block">Professors</h5>
               <a href="professors.html" class="btn btn-secondary btn-sm mt-2 float-right">View All</a>
             </div>
-            <table class="table table-bordered table-striped table-hover">
-              <thead class="thead-light">
-                <tr>
-                  <th>Name</th>
-                  <th>Email</th>
-                  <th>Course</th>
-                  <th>Names of Disciplines</th>
-                  <th>Date Of Birth</th>
-                  <th>Salary</th>
-                </tr>
-              </thead>
-              <tbody id="profTable">
-                <tr>
-                  <td>John</td>
-                  <td>john@gmail.com</td>
-                  <td>Science</td>
-                  <td>AB-CD</td>
-                  <td>12/26/1986</td>
-                  <td>2000 Euro</td>
-                </tr>
-                <tr>
-                  <td>Smith</td>
-                  <td>smith@gmail.com</td>
-                  <td>English</td>
-                  <td>BC-DE</td>
-                  <td>07/05/1979</td>
-                  <td>2600 Euro</td>
-                </tr>
-                <tr>
-                  <td>Christan</td>
-                  <td>christan@gmail.com</td>
-                  <td>Art</td>
-                  <td>DC-AB</td>
-                  <td>02/10/1980</td>
-                  <td>3450 Euro</td>
-                </tr>
-                <tr>
-                  <td>Joe</td>
-                  <td>joe@gmail.com</td>
-                  <td>Science/Maths</td>
-                  <td>FG-DD</td>
-                  <td>05/10/1983</td>
-                  <td>2200 Euro</td>
-                </tr>
-                <tr>
-                  <td>John</td>
-                  <td>john@gmail.com</td>
-                  <td>Science</td>
-                  <td>AB-CD</td>
-                  <td>12/28/1986</td>
-                  <td>2000 Euro</td>
-                </tr>
-              </tbody>
-            </table>
+            <div class="table-responsive">
+              <table class="table table-bordered table-striped table-hover">
+                <thead class="thead-light">
+                  <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Course</th>
+                    <th>Names of Disciplines</th>
+                    <th>Date Of Birth</th>
+                    <th>Salary</th>
+                  </tr>
+                </thead>
+                <tbody id="profTable">
+                  <tr>
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>Science</td>
+                    <td>AB-CD</td>
+                    <td>12/26/1986</td>
+                    <td>2000 Euro</td>
+                  </tr>
+                  <tr>
+                    <td>Smith</td>
+                    <td>smith@gmail.com</td>
+                    <td>English</td>
+                    <td>BC-DE</td>
+                    <td>07/05/1979</td>
+                    <td>2600 Euro</td>
+                  </tr>
+                  <tr>
+                    <td>Christan</td>
+                    <td>christan@gmail.com</td>
+                    <td>Art</td>
+                    <td>DC-AB</td>
+                    <td>02/10/1980</td>
+                    <td>3450 Euro</td>
+                  </tr>
+                  <tr>
+                    <td>Joe</td>
+                    <td>joe@gmail.com</td>
+                    <td>Science/Maths</td>
+                    <td>FG-DD</td>
+                    <td>05/10/1983</td>
+                    <td>2200 Euro</td>
+                  </tr>
+                  <tr>
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>Science</td>
+                    <td>AB-CD</td>
+                    <td>12/28/1986</td>
+                    <td>2000 Euro</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
           <!-- Table End -->
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mb-3">
           <div class="card shadow">
             <div class="card-header">
               <h5 class="my-2">Graph</h5>
@@ -196,8 +206,7 @@
   </div>
   <!--Container Main end-->
 
-  <script type='text/javascript'
-    src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
+  <script type='text/javascript' src='./assets/js/bootstrap.bundle.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
   <script src="./assets/js/toggle.js"></script>
   <script src="./assets/js/graph.js"></script>
