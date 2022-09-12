@@ -50,6 +50,10 @@ select.form-control option{
     color: var(--black-color) !important;
 }
 
+select option{
+    background-color:#fff;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -58,4 +62,8 @@ input::-webkit-inner-spin-button {
 
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.focus_on:focus .label_error{
+    display:block!important;
 }

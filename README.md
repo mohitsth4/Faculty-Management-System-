@@ -1,8 +1,8 @@
 # Project Name - Faculty-Management-System
-# Created By: Mohit Seth
-# Created Date: 8/9/2022 to 11/9/2022
-# Designation: Frontend Developer
-# Github Url: https://github.com/mohitsth4/Faculty-Management-System-
+Created By: Mohit Seth
+Created Date: 8/9/2022 to 11/9/2022
+Designation: Frontend Developer
+Github Url: https://github.com/mohitsth4/Faculty-Management-System-
 
 
 Instructions:
